@@ -34,7 +34,7 @@ const Menu = () => {
       allowEscapeKey: false,
       customClass: {
         popup: "swal-dark",
-        confirmButton: "swal-btn-outline-danger",
+        confirmButton: "swal-btn-success",
         cancelButton: "swal-btn-outline-secondary",
       },
       buttonsStyling: false,
