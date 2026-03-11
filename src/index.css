@@ -37,19 +37,6 @@ main {
   font-size: 1.1rem;
 }
 
-@media screen and (max-width: 767px) and (orientation: portrait) {
-  html {
-    transform: rotate(90deg);
-    transform-origin: top left;
-    width: 100vh;
-    height: 100vw;
-    position: absolute;
-    top: 0;
-    left: 100vw;
-    overflow: hidden;
-  }
-}
-
 @media (max-width: 576px) {
   .navbar {
     padding: 0.15rem 0.4rem;
