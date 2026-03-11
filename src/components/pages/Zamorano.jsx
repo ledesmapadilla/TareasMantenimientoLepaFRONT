@@ -57,7 +57,7 @@ const Zamorano = () => {
       <div className="tareas-header">
         <div className="tareas-pendientes-box">
           <span className="tareas-pendientes-label">Tareas pendientes</span>
-          <span className="tareas-pendientes-num">{tareas.length}</span>
+          <span className="tareas-pendientes-num">{tareas.filter((t) => (t.estado || "Pendiente") === "Pendiente").length}</span>
         </div>
         <div className="text-center">
           <h2 className="mb-0 mt-5">Tareas Zamorano</h2>
