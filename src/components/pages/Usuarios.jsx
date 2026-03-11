@@ -57,7 +57,7 @@ const Usuarios = () => {
         allowEscapeKey: false,
         customClass: {
           popup: "swal-dark",
-          confirmButton: "swal-btn-outline-danger",
+          confirmButton: "swal-btn-outline-success",
           cancelButton: "swal-btn-outline-secondary",
         },
         buttonsStyling: false,
